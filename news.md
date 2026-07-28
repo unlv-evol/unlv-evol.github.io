@@ -18,7 +18,7 @@ description: 'Full news archive for the EVOL Lab at UNLV.'
       {% include news-list.html %}
 
       <div class="actions">
-        <a class="btn btn-primary" href="{{ '/#news' | relative_url }}">Back to homepage preview</a>
+        <a class="btn btn-primary" href="{{ '/#news' | relative_url }}">Back to home page recent news</a>
         <a class="btn btn-outline" href="publications.html">Publications</a>
       </div>
     </div>
