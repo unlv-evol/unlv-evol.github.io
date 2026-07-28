@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — EVOL Lab</title>
+<meta name="description" content="Project catalog for the EVOL Lab at UNLV.">
+<link rel="icon" href="../assets/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="brand" href="../index.html#top">
+      <img class="brand-mark" src="../assets/logo.jpeg" alt="EVOL Lab logo">
+      <span class="brand-name">EVOL Lab</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="tabs" id="navTabs">
+      <a class="tab" href="../index.html#about">About</a>
+      <a class="tab" href="../index.html#people">People</a>
+      <a class="tab" href="../publications.html">Publications</a>
+      <a class="tab" href="../projects/index.html">Projects</a>
+      <a class="tab" href="../news.html">News</a>
+      <a class="tab" href="../join.html">Join</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top" class="project-page-main">
+  <section>
+    <div class="wrap">
+      <p class="project-breadcrumb">EVOL Lab / Projects</p>
+      <div class="section-head">
+        <div>
+          <div class="section-tag">projects</div>
+          <h1>All projects</h1>
+        </div>
+        <div class="section-note">Every project in this catalog links to a dedicated detail page with a research overview, outputs, and current focus.</div>
+      </div>
+      <p class="project-list-intro"> This page highlights all the ongoing and past EVOL Lab projects spanning software variants, empirical studies of fork maintenance, AI-assisted pull request analysis, and tooling for patch integration and visualization.</p>
+
+      <div class="project-grid">
+        <a class="project-card" href="project-pareco.html">
+          <div class="project-card-media project-card-media--navy">
+            <img src="../assets/pareco.jpeg" alt="Illustration for the PaReco project">
+          </div>
+          <p class="project-kicker">Patch reuse analysis</p>
+          <p class="project-name">PaReco</p>
+          <p class="project-desc">A clone-detection tool for identifying missed opportunity patches and duplicated maintenance work across variant forks, backed by a large curated dataset.</p>
+          <div class="project-pills">
+            <span class="project-pill">Clone detection</span>
+            <span class="project-pill">Missed patches</span>
+            <span class="project-pill">FSE 2022</span>
+          </div>
+          <div class="project-card-footer"><span>364 variant pairs, 8,323 patches</span><strong>View details</strong></div>
+        </a>
+
+        <a class="project-card" href="project-variant-forks.html">
+          <div class="project-card-media project-card-media--maroon">
+            <img src="../assets/variants_forks.jpeg" alt="Illustration for the Variant Forks study">
+          </div>
+          <p class="project-kicker">Fork motivation study</p>
+          <p class="project-name">Variant Forks: Motivations and Impediments</p>
+          <p class="project-desc">A qualitative investigation of why maintainers launch and sustain variant forks, covering technical, governance, legal, and community pressures.</p>
+          <div class="project-pills">
+            <span class="project-pill">Qualitative study</span>
+            <span class="project-pill">105 maintainers</span>
+            <span class="project-pill">SANER 2022</span>
+          </div>
+          <div class="project-card-footer"><span>Explains why forks diverge</span><strong>View details</strong></div>
+        </a>
+
+        <a class="project-card" href="project-reuse-maintenance.html">
+          <div class="project-card-media project-card-media--navy">
+            <img src="../assets/reuse_maintenance.jpeg" alt="Illustration for the Reuse and Maintenance Practices project">
+          </div>
+          <p class="project-kicker">Ecosystem mining</p>
+          <p class="project-name">Reuse & Maintenance Practices among Divergent Forks</p>
+          <p class="project-desc">An empirical study of software families within Android, .NET, and JavaScript ecosystems, focusing on code propagation and maintenance behavior.</p>
+          <div class="project-pills">
+            <span class="project-pill">Android/.NET/JS</span>
+            <span class="project-pill">Software families</span>
+            <span class="project-pill">EMSE 2022</span>
+          </div>
+          <div class="project-card-footer"><span>Studies code propagation in the wild</span><strong>View details</strong></div>
+        </a>
+
+        <a class="project-card" href="project-patchtrack.html">
+          <div class="project-card-media project-card-media--maroon">
+            <img src="../assets/patchtrack.png" alt="Illustration for the PatchTrack project">
+          </div>
+          <p class="project-kicker">AI pull request analysis</p>
+          <p class="project-name">PatchTrack</p>
+          <p class="project-desc">A tool and replication package for classifying whether ChatGPT-suggested patches were applied, skipped, or transformed during pull request integration.</p>
+          <div class="project-pills">
+            <span class="project-pill">338 pull requests</span>
+            <span class="project-pill">645 AI snippets</span>
+            <span class="project-pill">MIT licensed</span>
+          </div>
+          <div class="project-card-footer"><span>Tracks real-world ChatGPT patch adoption</span><strong>View details</strong></div>
+        </a>
+
+        <a class="project-card" href="project-repatch.html">
+          <div class="project-card-media project-card-media--navy">
+            <img src="../assets/repatch.jpg" alt="Illustration for the RePatch project">
+          </div>
+          <p class="project-kicker">Patch integration tool</p>
+          <p class="project-name">RePatch</p>
+          <p class="project-desc">A refactoring-aware patch integration tool that transfers bug-fix commits across structurally divergent Java forks by inverting and replaying refactorings.</p>
+          <div class="project-pills">
+            <span class="project-pill">Java</span>
+            <span class="project-pill">Refactoring-aware merge</span>
+            <span class="project-pill">SCAM 2025</span>
+          </div>
+          <div class="project-card-footer"><span>Targets divergent Java variants</span><strong>View details</strong></div>
+        </a>
+
+        <a class="project-card" href="project-movis.html">
+          <div class="project-card-media project-card-media--maroon">
+            <img src="../assets/project-movis.svg" alt="Illustration for the MOVis project">
+          </div>
+          <p class="project-kicker">Visualization system</p>
+          <p class="project-name">MOVis</p>
+          <p class="project-desc">An interactive visual analytics system for localizing missed patches across software variants, combining a Qt GUI with the PaReco backend.</p>
+          <div class="project-pills">
+            <span class="project-pill">Qt / C++</span>
+            <span class="project-pill">Visual analytics</span>
+            <span class="project-pill">FSE 2026 demo</span>
+          </div>
+          <div class="project-card-footer"><span>Explores variants, files, and patches visually</span><strong>View details</strong></div>
+        </a>
+      </div>
+
+      <div class="projects-cta">
+        <p> Return to the home page for the shorter overview.</p>
+        <a class="btn btn-outline" href="../index.html#projects">Back to selected projects</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-wrap">
+    <span>Software Evolution (EVOL) Lab · UNLV</span>
+    <span>Last updated <span id="last-updated-date">loading...</span> · <a href="#top">back to top</a></span>
+  </div>
+</footer>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navTabs = document.getElementById('navTabs');
+
+  const lastUpdatedEl = document.getElementById('last-updated-date');
+  if (lastUpdatedEl) {
+    const lastModified = new Date(document.lastModified);
+    if (!Number.isNaN(lastModified.getTime())) {
+      const yyyy = lastModified.getFullYear();
+      const mm = String(lastModified.getMonth() + 1).padStart(2, '0');
+      const dd = String(lastModified.getDate()).padStart(2, '0');
+      lastUpdatedEl.textContent = yyyy + '-' + mm + '-' + dd;
+    } else {
+      lastUpdatedEl.textContent = 'unknown';
+    }
+  }
+  navToggle.addEventListener('click', () => {
+    const isOpen = navTabs.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  navTabs.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      navTabs.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+</body>
+</html>

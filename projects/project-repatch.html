@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RePatch — EVOL Lab</title>
+<meta name="description" content="Detail page for the RePatch project at EVOL Lab.">
+<link rel="icon" href="../assets/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="brand" href="../index.html#top">
+      <img class="brand-mark" src="../assets/logo.jpeg" alt="EVOL Lab logo">
+      <span class="brand-name">EVOL Lab</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="tabs" id="navTabs">
+      <a class="tab" href="../index.html#about">About</a>
+      <a class="tab" href="../index.html#people">People</a>
+      <a class="tab" href="../publications.html">Publications</a>
+      <a class="tab" href="../projects/index.html">Projects</a>
+      <a class="tab" href="../news.html">News</a>
+      <a class="tab" href="../join.html">Join</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top" class="project-page-main">
+  <section>
+    <div class="wrap">
+      <p class="project-breadcrumb">EVOL Lab / Projects / RePatch</p>
+      <div class="project-page-hero">
+        <div>
+          <div class="project-pills">
+            <span class="project-status">Active repository</span>
+            <span class="project-pill">Java</span>
+            <span class="project-pill">SCAM 2025</span>
+          </div>
+          <h1>RePatch</h1>
+          <p class="project-page-lead">RePatch is a refactoring-aware patch integration tool for structurally divergent Java forks. It automates bug-fix transfer across related codebases even when standard cherry-pick fails because of method moves, renames, or broader structural reorganization.</p>
+          <div class="project-links">
+            <a href="index.html">All projects</a>
+            <a href="../index.html#projects">Selected projects</a>
+            <a href="https://github.com/unlv-evol/RePatch" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+          </div>
+        </div>
+        <figure class="project-figure">
+          <img src="../assets/repatch.jpg" alt="Project image for RePatch">
+          <figcaption>Illustrative view of patch transfer across divergent Java variants, with structural alignment used to recover from cherry-pick failures.</figcaption>
+        </figure>
+      </div>
+
+      <div class="project-detail-grid">
+        <div class="project-detail-card">
+          <h2>Overview</h2>
+          <p>RePatch begins from a familiar maintenance failure: a bug-fix commit exists in one variant but does not apply cleanly to another because the target has drifted structurally. Instead of giving up after a failed cherry-pick, RePatch detects refactorings, temporarily inverts them to restore alignment, applies the patch, and then replays the original transformations.</p>
+          <p>The approach is designed for long-lived Java variants that continue evolving independently. The repository includes the core integration pipeline, data models for conflict and file analysis, a database layer for result tracking, and a reproducibility package with sample and full evaluation data.</p>
+          <h3>What the project focuses on</h3>
+          <ul>
+            <li>Applying bug-fix patches across structurally divergent Java forks.</li>
+            <li>Detecting refactorings that block standard cherry-pick integration.</li>
+            <li>Reducing manual effort during cross-variant synchronization.</li>
+            <li>Supporting reproducible evaluation of merge-conflict reduction.</li>
+          </ul>
+        </div>
+
+        <div class="project-sidebar-stack">
+          <article class="project-detail-card">
+            <h3>Key takeaways</h3>
+            <ul>
+              <li>Targets missed opportunity patches found between related Java variants.</li>
+              <li>Uses a two-phase alignment strategy built around inversion and replay of refactorings.</li>
+              <li>Ships with artifact support, Docker guidance, and analysis scripts for reproduction.</li>
+            </ul>
+          </article>
+          <article class="project-detail-card">
+            <h3>Why it matters</h3>
+            <p>Variant forks create hidden maintenance cost whenever shared bugs are fixed twice or propagated manually. RePatch turns refactoring-aware transfer into a practical research artifact for reducing those costs.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-wrap">
+    <span>Software Evolution (EVOL) Lab · UNLV</span>
+    <span>Last updated <span id="last-updated-date">loading...</span> · <a href="#top">back to top</a></span>
+  </div>
+</footer>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navTabs = document.getElementById('navTabs');
+  const lastUpdatedEl = document.getElementById('last-updated-date');
+  if (lastUpdatedEl) {
+    const lastModified = new Date(document.lastModified);
+    if (!Number.isNaN(lastModified.getTime())) {
+      const yyyy = lastModified.getFullYear();
+      const mm = String(lastModified.getMonth() + 1).padStart(2, '0');
+      const dd = String(lastModified.getDate()).padStart(2, '0');
+      lastUpdatedEl.textContent = yyyy + '-' + mm + '-' + dd;
+    } else {
+      lastUpdatedEl.textContent = 'unknown';
+    }
+  }
+  navToggle.addEventListener('click', () => {
+    const isOpen = navTabs.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  navTabs.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      navTabs.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+</body>
+</html>

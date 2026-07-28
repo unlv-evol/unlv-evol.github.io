@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Variant Forks: Motivations and Impediments — EVOL Lab</title>
+<meta name="description" content="Detail page for the Variant Forks: Motivations and Impediments project at EVOL Lab.">
+<link rel="icon" href="../assets/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <a class="brand" href="../index.html#top">
+      <img class="brand-mark" src="../assets/logo.jpeg" alt="EVOL Lab logo">
+      <span class="brand-name">EVOL Lab</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="tabs" id="navTabs">
+      <a class="tab" href="../index.html#about">About</a>
+      <a class="tab" href="../index.html#people">People</a>
+      <a class="tab" href="../publications.html">Publications</a>
+      <a class="tab" href="../projects/index.html">Projects</a>
+      <a class="tab" href="../news.html">News</a>
+      <a class="tab" href="../join.html">Join</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top" class="project-page-main">
+  <section>
+    <div class="wrap">
+      <p class="project-breadcrumb">EVOL Lab / Projects / Variant Forks</p>
+      <div class="project-page-hero">
+        <div>
+          <div class="project-pills">
+            <span class="project-status">Current project</span>
+            <span class="project-pill">Qualitative study</span>
+            <span class="project-pill">SANER 2022</span>
+          </div>
+          <h1>Variant Forks: Motivations and Impediments</h1>
+          <p class="project-page-lead">This project investigates why open-source teams launch and sustain variant forks, and what makes those forks difficult to maintain over time. It shifts the conversation from code divergence alone to the human, organizational, and legal forces that drive it.</p>
+          <div class="project-links">
+            <a href="index.html">All projects</a>
+            <a href="../index.html#projects">Selected projects</a>
+            <a href="https://johnxu21.github.io/evol/projects/" target="_blank" rel="noopener noreferrer">Original project page</a>
+          </div>
+        </div>
+        <figure class="project-figure">
+          <img src="../assets/variants_forks.jpeg" alt="Project image for Variant Forks: Motivations and Impediments">
+          <figcaption>Illustrative view of the forces that shape fork creation and maintenance, spanning technical, governance, legal, and coordination constraints.</figcaption>
+        </figure>
+      </div>
+
+      <div class="project-detail-grid">
+        <div class="project-detail-card">
+          <h2>Overview</h2>
+          <p>Social coding platforms make it easy to create forks, but they do not explain why some forks become durable variants instead of short-lived experiments. This project explores the motivations behind variant forks, asking whether the main drivers are technical divergence, governance preferences, licensing issues, or other practical concerns.</p>
+          <p>The study surveyed 105 maintainers of active open-source variant projects on GitHub and extended prior work with finer-grained insights about why forks are launched and what impedes their long-term co-existence. The result is a more grounded understanding of the social and organizational context behind software variants.</p>
+          <h3>What the project focuses on</h3>
+          <ul>
+            <li>Why maintainers create variant forks instead of contributing upstream.</li>
+            <li>The technical, governance, and legal factors that sustain divergence.</li>
+            <li>Impediments to sharing work back across related projects.</li>
+            <li>Practical consequences for maintenance and coordination across forks.</li>
+          </ul>
+        </div>
+
+        <div class="project-sidebar-stack">
+          <article class="project-detail-card">
+            <h3>Key takeaways</h3>
+            <ul>
+              <li>Shows that motivations for variant forks are more varied than prior coarse-grained categories suggested.</li>
+              <li>Documents concrete barriers that make ongoing co-maintenance difficult.</li>
+              <li>Provides empirical grounding for tooling and process support around long-lived forks.</li>
+            </ul>
+          </article>
+          <article class="project-detail-card">
+            <h3>Why it matters</h3>
+            <p>Understanding why forks exist is a prerequisite for building better synchronization tools. If divergence is driven by more than code, then maintenance support has to account for social and organizational realities too.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-wrap">
+    <span>Software Evolution (EVOL) Lab · UNLV</span>
+    <span>Last updated <span id="last-updated-date">loading...</span> · <a href="#top">back to top</a></span>
+  </div>
+</footer>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navTabs = document.getElementById('navTabs');
+
+  const lastUpdatedEl = document.getElementById('last-updated-date');
+  if (lastUpdatedEl) {
+    const lastModified = new Date(document.lastModified);
+    if (!Number.isNaN(lastModified.getTime())) {
+      const yyyy = lastModified.getFullYear();
+      const mm = String(lastModified.getMonth() + 1).padStart(2, '0');
+      const dd = String(lastModified.getDate()).padStart(2, '0');
+      lastUpdatedEl.textContent = yyyy + '-' + mm + '-' + dd;
+    } else {
+      lastUpdatedEl.textContent = 'unknown';
+    }
+  }
+  navToggle.addEventListener('click', () => {
+    const isOpen = navTabs.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  navTabs.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      navTabs.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+</body>
+</html>
