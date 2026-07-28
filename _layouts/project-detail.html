@@ -1,0 +1,68 @@
+---
+layout: evol
+---
+
+<main id="top" class="project-page-main">
+  <section>
+    <div class="wrap">
+      <p class="project-breadcrumb">{{ page.project_breadcrumb }}</p>
+      <div class="project-page-hero">
+        <div>
+          <div class="project-pills">
+            <span class="project-status">{{ page.project_status }}</span>
+            {% for pill in page.project_pills %}
+              <span class="project-pill">{{ pill }}</span>
+            {% endfor %}
+          </div>
+          <h1>{{ page.project_name }}</h1>
+          <p class="project-page-lead">{{ page.project_lead }}</p>
+          <div class="project-links">
+            {% for link in page.project_links %}
+              {% if link.site_relative %}
+                <a href="{{ link.href | relative_url }}">{{ link.label }}</a>
+              {% elsif link.external %}
+                <a href="{{ link.href }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+              {% else %}
+                <a href="{{ link.href }}">{{ link.label }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <figure class="project-figure">
+          <img src="{{ page.figure_image | relative_url }}" alt="{{ page.figure_alt }}">
+          <figcaption>{{ page.figure_caption }}</figcaption>
+        </figure>
+      </div>
+
+      <div class="project-detail-grid">
+        <div class="project-detail-card">
+          <h2>Overview</h2>
+          {% for paragraph in page.overview_paragraphs %}
+            <p>{{ paragraph }}</p>
+          {% endfor %}
+          <h3>What the project focuses on</h3>
+          <ul>
+            {% for point in page.focus_points %}
+              <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="project-sidebar-stack">
+          <article class="project-detail-card">
+            <h3>Key takeaways</h3>
+            <ul>
+              {% for takeaway in page.key_takeaways %}
+                <li>{{ takeaway }}</li>
+              {% endfor %}
+            </ul>
+          </article>
+          <article class="project-detail-card">
+            <h3>Why it matters</h3>
+            <p>{{ page.why_it_matters }}</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

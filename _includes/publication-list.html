@@ -1,0 +1,32 @@
+{% assign limit = include.limit | default: 9999 %}
+{% assign pubs = site.publications | sort: 'date' | reverse %}
+{% assign rendered = 0 %}
+
+<div class="pub-list">
+  {% for item in pubs %}
+    {% if rendered >= limit %}{% break %}{% endif %}
+    <div class="pub">
+      <div>
+        {% assign primary_link = item.links.Paper | default: item.links.Preprint | default: item.links.Code %}
+        {% if primary_link %}
+          <p class="pub-title"><a href="{{ primary_link }}">{{ item.title }}</a></p>
+        {% else %}
+          <p class="pub-title">{{ item.title }}</p>
+        {% endif %}
+        {% if item.authors and item.authors.size > 0 %}
+          <p class="pub-authors">{{ item.authors | join: ', ' }}</p>
+        {% endif %}
+        <div class="pub-badges">
+          <span class="badge badge-venue">{{ item.pub }}</span>
+          {% if item.badges %}
+            {% for badge in item.badges %}
+              <span class="badge badge-avail">{{ badge }}</span>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+      <span class="pub-year">{{ item.pub_date }}</span>
+    </div>
+    {% assign rendered = rendered | plus: 1 %}
+  {% endfor %}
+</div>

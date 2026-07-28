@@ -1,0 +1,47 @@
+---
+layout: evol
+---
+
+<main id="top" class="member-main">
+  <section>
+    <div class="wrap">
+      <div class="member-header">
+        <div class="member-aside">
+          <img class="member-photo" src="{{ page.photo | relative_url }}" alt="{{ page.member_name }}">
+          <nav class="member-links" aria-label="{{ page.member_name }} social links">
+            {% for link in page.social_links %}
+              <a class="member-link-item" href="{{ link.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ link.label }}">
+                {% include member-social-icon.html type=link.type %}
+                <span class="sr-only">{{ link.label }}</span>
+              </a>
+            {% endfor %}
+          </nav>
+        </div>
+        <div>
+          <p class="member-role">{{ page.home_role }}</p>
+          <h1>{{ page.member_name }}</h1>
+          <p class="member-summary">{{ page.member_summary }}</p>
+        </div>
+      </div>
+
+      <div class="member-grid">
+        <article class="member-card">
+          <h3>Research Interests</h3>
+          <ul>
+            {% for item in page.research_interests %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+        <article class="member-card">
+          <h3>Current Research Projects</h3>
+          <ul>
+            {% for item in page.current_research_projects %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>

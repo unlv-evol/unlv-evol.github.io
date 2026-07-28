@@ -23,15 +23,57 @@ email: john.businge@unlv.edu
 description: >- # this means to ignore newlines until "baseurl:"
   EVOL Lab is home to graduate researchers advancing empirical software engineering at UNLV.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://unlv-evol.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://unlv-evol.github.io" # the base hostname & protocol for your site.
 
 # Build settings
 theme: minima
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+collections:
+  publications:
+    output: false
+  news:
+    output: false
+  projects:
+    output: true
+    permalink: /projects/:name.html
+  team_members:
+    output: true
+    permalink: /team/:name.html
+
+defaults:
+  - scope:
+      path: "join.md"
+    values:
+      nav: join
+  - scope:
+      path: "news.md"
+    values:
+      nav: news
+  - scope:
+      path: "publications.md"
+    values:
+      nav: publications
+  - scope:
+      path: "projects"
+      type: pages
+    values:
+      nav: projects
+  - scope:
+      type: projects
+    values:
+      nav: projects
+  - scope:
+      path: "team"
+      type: pages
+    values:
+      nav: people
+  - scope:
+      type: team_members
+    values:
+      nav: people
 
 # Exclude from processing.
 # The following items will not be processed, by default.

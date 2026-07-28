@@ -1,0 +1,31 @@
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navTabs = document.getElementById('navTabs');
+
+  const lastUpdatedEl = document.getElementById('last-updated-date');
+  if (lastUpdatedEl) {
+    const lastModified = new Date(document.lastModified);
+    if (!Number.isNaN(lastModified.getTime())) {
+      const yyyy = lastModified.getFullYear();
+      const mm = String(lastModified.getMonth() + 1).padStart(2, '0');
+      const dd = String(lastModified.getDate()).padStart(2, '0');
+      lastUpdatedEl.textContent = yyyy + '-' + mm + '-' + dd;
+    } else {
+      lastUpdatedEl.textContent = 'unknown';
+    }
+  }
+
+  if (navToggle && navTabs) {
+    navToggle.addEventListener('click', () => {
+      const isOpen = navTabs.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', isOpen);
+    });
+
+    navTabs.querySelectorAll('a').forEach((a) => {
+      a.addEventListener('click', () => {
+        navTabs.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+</script>

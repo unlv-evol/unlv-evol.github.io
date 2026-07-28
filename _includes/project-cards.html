@@ -1,0 +1,38 @@
+{% assign entries = site.projects | sort: 'order' %}
+{% if include.featured_only %}
+  {% assign entries = entries | where: 'featured_home', true %}
+{% endif %}
+
+<div class="project-grid">
+  {% for item in entries %}
+    {% if include.mode == 'catalog' %}
+      <a class="project-card" href="{{ item.url | relative_url }}">
+        <div class="project-card-media {{ item.card_media_class }}">
+          <img src="{{ item.card_image | relative_url }}" alt="{{ item.card_image_alt }}">
+        </div>
+        <p class="project-kicker">{{ item.card_kicker }}</p>
+        <p class="project-name">{{ item.card_name }}</p>
+        <p class="project-desc">{{ item.card_description }}</p>
+        <div class="project-pills">
+          {% for pill in item.card_pills %}
+            <span class="project-pill">{{ pill }}</span>
+          {% endfor %}
+        </div>
+        <div class="project-card-footer"><span>{{ item.card_footer }}</span><strong>View details</strong></div>
+      </a>
+    {% else %}
+      <a class="project-card" href="{{ item.url | relative_url }}">
+        <div class="project-card-media {{ item.home_media_class }}">
+          <img src="{{ item.card_image | relative_url }}" alt="{{ item.card_image_alt }}">
+        </div>
+        <p class="project-name">{{ item.home_name }}</p>
+        <p class="project-desc">{{ item.home_description }}</p>
+        <div class="project-meta">
+          {% for badge in item.home_meta %}
+            <span>{{ badge }}</span>
+          {% endfor %}
+        </div>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
