@@ -12,7 +12,7 @@ description: 'Full publication archive for the EVOL Lab at UNLV.'
           <div class="section-tag">publications</div>
           <h2>Full publication archive</h2>
         </div>
-        <div class="section-note">All publications listed here.</div>
+        <div class="section-note"></div>
       </div>
 
       {% include publication-list.html %}

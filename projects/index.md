@@ -13,7 +13,7 @@ description: 'Project catalog for the EVOL Lab at UNLV.'
           <div class="section-tag">projects</div>
           <h1>All projects</h1>
         </div>
-        <div class="section-note">Every project in this catalog links to a dedicated detail page with a research overview, outputs, and current focus.</div>
+        <div class="section-note"></div>
       </div>
       <p class="project-list-intro"> This page highlights all the ongoing and past EVOL Lab projects spanning software variants, empirical studies of fork maintenance, AI-assisted pull request analysis, and tooling for patch integration and visualization.</p>
 

@@ -12,7 +12,7 @@ description: 'Full news archive for the EVOL Lab at UNLV.'
           <div class="section-tag">news</div>
           <h2>News archive</h2>
         </div>
-        <div class="section-note">Complete list of EVOL Lab updates.</div>
+        <div class="section-note"></div>
       </div>
 
       {% include news-list.html %}

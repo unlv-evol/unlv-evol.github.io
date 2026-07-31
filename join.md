@@ -4,7 +4,7 @@ title: 'Join EVOL Lab — UNLV'
 description: 'Application and contact information for prospective Master''s and PhD students interested in the EVOL Lab at UNLV.'
 ---
 
-<main id="top">
+<main id="top" class="join-page">
   <div class="wrap">
     <header class="page-head">
       <p class="eyebrow">Join</p>
@@ -16,7 +16,7 @@ description: 'Application and contact information for prospective Master''s and 
       <section>
         <div class="join-panels">
           <article class="join-panel">
-            <h2>PhD Applicants</h2>
+            <h3>PhD Applicants</h3>
             <p>Applicants should hold a Master's degree in software engineering or a related area.</p>
             <ul>
               <li>At least one peer-reviewed software engineering publication is expected.</li>
@@ -26,7 +26,7 @@ description: 'Application and contact information for prospective Master''s and 
           </article>
 
           <article class="join-panel">
-            <h2>Master's Applicants</h2>
+            <h3>Master's Applicants</h3>
             <p>Apply to UNLV first, then contact the lab with your application number.</p>
             <ul>
               <li>Lab-focused applications are typically reviewed in Jan-Feb.</li>
@@ -37,7 +37,7 @@ description: 'Application and contact information for prospective Master''s and 
         </div>
 
         <article class="join-checklist">
-          <h2>What To Include In Your Email</h2>
+          <h3>What To Include In Your Email</h3>
           <ul>
             <li>Resume and transcripts.</li>
             <li>A one-page essay in English covering research motivation and interests.</li>
@@ -51,14 +51,14 @@ description: 'Application and contact information for prospective Master''s and 
       </section>
 
       <aside class="info-card">
-        <h2>Contact</h2>
+        <h3>Contact</h3>
         <dl>
           <dt>Email</dt>
-          <dd>john.businge@unlv.edu</a></dd>
+          <dd><a href="mailto:john.businge@unlv.edu">john.businge@unlv.edu</a></dd>
           <dt>Location</dt>
           <dd>Dept. of Computer Science, UNLV</dd>
-          <dt>Github</dt>
-          <dd><a href="https://github.com/unlv-evol" target="_blank">github.com/evol-lab</a></dd>
+          <dt>GitHub</dt>
+          <dd><a href="https://github.com/unlv-evol" target="_blank" rel="noopener noreferrer">github.com/unlv-evol</a></dd>
           <dt>Master's Applicants</dt>
           <dd>Contact us after applying and include your application number.</dd>
           <dt>PhD Applicants</dt>
