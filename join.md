@@ -1,7 +1,7 @@
 ---
 layout: evol
 title: 'Join EVOL Lab — UNLV'
-description: 'Application and contact information for prospective Master''s and PhD students interested in the EVOL Lab at UNLV.'
+description: 'Opportunities for prospective Master''s and PhD students to conduct research in software evolution, empirical software engineering, and AI-assisted software engineering at the EVOL Lab, UNLV.'
 ---
 
 <main id="top" class="join-page">
@@ -9,7 +9,17 @@ description: 'Application and contact information for prospective Master''s and 
     <header class="page-head">
       <p class="eyebrow">Join</p>
       <h1>Work With EVOL Lab</h1>
-      <p class="lede">Thanks for your interest in EVOL Lab. We focus on empirical software engineering, especially code recommenders that help developers find and integrate relevant snippets. If a project in our portfolio aligns with your interests, call out that connection in your message.</p>
+
+      <p class="lede">
+        Thank you for your interest in EVOL Lab. We develop the next generation
+        of dependable software evolution technologies by combining empirical
+        software engineering with AI-assisted software engineering. Our research
+        spans software evolution, reusable change adaptation, software variants,
+        developer workflows, and intelligent software engineering tools. We are
+        always looking for motivated students who are passionate about advancing
+        the state of the art. If your interests align with our research, tell us
+        why in your message.
+      </p>
     </header>
 
     <div class="join-grid">
@@ -17,56 +27,146 @@ description: 'Application and contact information for prospective Master''s and 
         <div class="join-panels">
           <article class="join-panel">
             <h3>PhD Applicants</h3>
-            <p>Applicants should hold a Master's degree in software engineering or a related area.</p>
+
+            <p>
+              We are looking for curious, self-motivated researchers who are
+              excited about advancing the state of the art in software
+              engineering. Competitive applicants typically have a Master's
+              degree in software engineering, computer science, or a closely
+              related field.
+            </p>
+
             <ul>
-              <li>At least one peer-reviewed software engineering publication is expected.</li>
-              <li>Shortlisted candidates complete a video call and a 10-15 minute research presentation.</li>
-              <li>Evaluation includes a paper review and a programming task.</li>
+              <li>
+                Strong programming and software engineering skills.
+              </li>
+              <li>
+                Interest in empirical software engineering, software evolution,
+                or AI-assisted software engineering.
+              </li>
+              <li>
+                A peer-reviewed software engineering publication is highly
+                desirable.
+              </li>
+              <li>
+                Shortlisted applicants complete a research interview, a
+                10–15-minute presentation, a paper-review exercise, and a
+                technical programming task.
+              </li>
             </ul>
           </article>
 
           <article class="join-panel">
             <h3>Master's Applicants</h3>
-            <p>Apply to UNLV first, then contact the lab with your application number.</p>
+
+            <p>
+              Master's students contribute to research software, empirical
+              studies, datasets, and experimental infrastructure while gaining
+              experience in academic research and software engineering.
+            </p>
+
             <ul>
-              <li>Lab-focused applications are typically reviewed in Jan-Feb.</li>
-              <li>Shortlisted candidates are interviewed and complete a paper review and coding task.</li>
-              <li>You can also join UNLV first and identify an advisor after arrival.</li>
+              <li>
+                Apply to a UNLV graduate program before contacting the lab.
+              </li>
+              <li>
+                Include your UNLV application number when available.
+              </li>
+              <li>
+                Shortlisted applicants complete an interview, a paper-review
+                exercise, and a programming task.
+              </li>
+              <li>
+                Students already enrolled at UNLV are also welcome to contact
+                the lab after identifying a research area of mutual interest.
+              </li>
             </ul>
           </article>
         </div>
 
         <article class="join-checklist">
-          <h3>What To Include In Your Email</h3>
+          <h3>How to Apply</h3>
+
+          <p>
+            Please begin your email subject with
+            <strong>EVOL</strong> and include:
+          </p>
+
           <ul>
-            <li>Resume and transcripts.</li>
-            <li>A one-page essay in English covering research motivation and interests.</li>
-            <li>A brief note on your favorite programming language or project and why.</li>
-            <li>One strong learning or teaching experience.</li>
-            <li>Evidence that you reviewed the lab's recent work.</li>
-            <li>Start your subject line with <strong>"EVOL"</strong>.</li>
+            <li>Your resume or curriculum vitae.</li>
+            <li>Academic transcripts.</li>
+            <li>Your UNLV application number, if available.</li>
+            <li>
+              A one-page statement describing your research interests and
+              motivation.
+            </li>
+            <li>
+              A brief explanation of why you are interested in EVOL Lab.
+            </li>
+            <li>
+              Your strongest programming languages and relevant technical
+              experience.
+            </li>
+            <li>
+              Links to your GitHub profile, publications, or technical projects,
+              if available.
+            </li>
+            <li>
+              One recent EVOL Lab paper or project that you reviewed, together
+              with a brief explanation of what you found interesting.
+            </li>
           </ul>
-          <p class="supporting-note">For general application guidance, Prof. Sarah Nadi's talk on <a href="https://www.youtube.com/watch?v=B3oANa67Iq4">preparing a graduate school application</a> is a helpful starting point.</p>
+
+          <p class="supporting-note">
+            Before contacting the lab, we encourage prospective students to
+            become familiar with our current research projects and publications.
+            Thoughtful, personalized inquiries are much more helpful than
+            generic emails.
+          </p>
         </article>
       </section>
 
       <aside class="info-card">
         <h3>Contact</h3>
+
         <dl>
           <dt>Email</dt>
-          <dd><a href="mailto:john.businge@unlv.edu">john.businge@unlv.edu</a></dd>
+          <dd>
+            <a href="mailto:john.businge@unlv.edu">
+              john.businge@unlv.edu
+            </a>
+          </dd>
+
           <dt>Location</dt>
-          <dd>Dept. of Computer Science, UNLV</dd>
+          <dd>Department of Computer Science, UNLV</dd>
+
           <dt>GitHub</dt>
-          <dd><a href="https://github.com/unlv-evol" target="_blank" rel="noopener noreferrer">github.com/unlv-evol</a></dd>
+          <dd>
+            <a
+              href="https://github.com/unlv-evol"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/unlv-evol
+            </a>
+          </dd>
+
           <dt>Master's Applicants</dt>
-          <dd>Contact us after applying and include your application number.</dd>
+          <dd>
+            Contact us after applying and include your application number.
+          </dd>
+
           <dt>PhD Applicants</dt>
-          <dd>Master's degree plus a published peer-reviewed SE paper required.</dd>
+          <dd>
+            A Master's degree is typically expected. Prior research experience
+            and peer-reviewed publications are highly desirable.
+          </dd>
         </dl>
 
         <div class="actions">
-          <a class="btn btn-primary" href="index.html">Back to Main Page</a>
+          <a class="btn btn-primary" href="index.html">
+            Back to Main Page
+          </a>
         </div>
       </aside>
     </div>
