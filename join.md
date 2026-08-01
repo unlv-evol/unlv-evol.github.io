@@ -50,7 +50,7 @@ description: 'Opportunities for prospective Master''s and PhD students to conduc
               </li>
               <li>
                 Shortlisted applicants complete a research interview, a
-                10–15-minute presentation, a paper-review exercise, and a
+                30-minute presentation, a paper-review exercise, and a
                 technical programming task.
               </li>
             </ul>
