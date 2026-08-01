@@ -41,26 +41,34 @@ description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable soft
       <div class="section-head">
         <div>
           <div class="section-tag">about</div>
-          <h2>What we investigate</h2>
+          <h2>Research Vision</h2>
         </div>
         <div class="section-note"></div>
       </div>
-      <p class="lede-block">EVOL Lab sits within <strong>empirical software engineering</strong>, with a focus on how systems, and the communities that build them, change over time. We treat engineering practice as a phenomenon to be measured, not assumed — mining repositories, running controlled experiments with developers, and building tools that put those findings back into practitioners' hands.</p>
+      <p class="lede-block">
+        EVOL Lab advances <strong>dependable software evolution</strong> through empirical software engineering and AI-assisted software engineering. We investigate how software systems evolve, why reusable changes become difficult to transfer across independently evolving software variants, and how intelligent, evidence-driven methods can discover, adapt, verify, and integrate those changes safely at scale.
+        </p>
       <div class="rq-grid">
         <div class="rq-card">
-          <span class="rq-id">RQ1</span>
-          <h3>When projects fork and diverge, what gets lost — and what should be shared back?</h3>
-          <p>Studying variant forks and software families to understand why teams diverge, what maintenance work gets duplicated, and where automated tooling could close the gap.</p>
+          <span class="rq-id">Research Theme 1</span>
+          <h3>Understanding Software Evolution</h3>
+          <p>We study software repositories at scale to understand how systems,
+            variants, and developer communities change, diverge, collaborate, and
+            accumulate maintenance challenges over time.</p>
         </div>
         <div class="rq-card">
-          <span class="rq-id">RQ2</span>
-          <h3>What do code and commit histories reveal about how teams actually collaborate?</h3>
-          <p>Large-scale mining of open-source and industrial repositories to model review dynamics, technical debt accumulation, and knowledge diffusion across contributors.</p>
+          <span class="rq-id">Research Theme 2</span>
+          <h3>Autonomous Reusable Change Adaptation</h3>
+          <p>We develop methods to discover, adapt, verify, and integrate reusable
+            fixes, enhancements, and capabilities across independently evolving
+            software variants.</p>
         </div>
         <div class="rq-card">
-          <span class="rq-id">RQ3</span>
-          <h3>Can tooling recommend the right code, at the right moment, and help developers integrate it?</h3>
-          <p>Building and evaluating code recommenders — for fixes, refactorings, and tests — that go beyond retrieval to support the harder step of integration.</p>
+          <span class="rq-id">Research Theme 3</span>
+          <h3>AI-Assisted Software Engineering</h3>
+          <p>We combine empirical evidence and large language models to build
+    trustworthy developer tools that improve software quality while
+    preserving human oversight.</p>
         </div>
       </div>
     </div>
