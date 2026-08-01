@@ -7,14 +7,14 @@ featured_home: true
 photo: /assets/john.jpeg
 home_photo_class: photo-hex--link
 home_name: Dr. John Businge
-home_role: Principal Investigator
+home_role: Professor
 home_note: Software evolution, code recommenders, empirical methods.
 member_name: Dr. John Businge
 member_summary: Dr. Businge leads EVOL Lab research on software evolution, variant forks, and evidence-based tooling. His work emphasizes practical methods for understanding divergence across repositories and improving patch integration in real development ecosystems.
 social_links:
   - type: website
     label: Personal website
-    url: https://www.cs.unlv.edu/~busing/
+    url: https://johnxu21.github.io/
   - type: linkedin
     label: LinkedIn
     url: https://www.linkedin.com/in/johnxu211
@@ -25,13 +25,14 @@ social_links:
     label: GitHub
     url: https://github.com/johnxu21
 research_interests:
-  - Software evolution and maintenance in long-lived systems.
-  - Variant forks, divergence patterns, and cross-fork reuse.
+  - Dependable software evolution and maintenance.
+  - Long-lived software variants, forks, and reusable change propagation.
+  - AI-assisted software engineering and collaborative development workflows.
   - Empirical software engineering and repository mining.
-  - Patch recommendation and integration workflows.
+  - Refactoring-aware software evolution and automated change integration.
 current_research_projects:
-  - Large-scale analyses of AI-assisted pull requests and patch outcomes.
-  - Refactoring-aware patch integration for structurally divergent variants.
-  - Ecosystem-scale studies of dependency network risk and resilience.
-  - Datasets and benchmarks for reproducible software evolution research.
----
+  - AI-assisted pull request analysis, prompt engineering, and developer workflows.
+  - Semantic alignment and refactoring-aware reusable change adaptation across software variants.
+  - Ecosystem-scale software evolution using large-scale mining and explainable software analytics.
+  - Open datasets, benchmarks, and developer tools for reproducible software engineering research.
+------
