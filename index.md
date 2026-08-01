@@ -1,7 +1,7 @@
 ---
 layout: evol
 title: 'EVOL Lab — Software Evolution, UNLV'
-description: 'The Software Evolution (EVOL) Lab at UNLV is home to graduate researchers advancing empirical software engineering — studying how codebases, forks, and teams change over time.'
+description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable software evolution through empirical software engineering and AI-assisted development. We study how software ecosystems evolve and create intelligent methods for understanding, adapting, and reusing software changes at scale.'
 ---
 
 <main id="top">
@@ -12,8 +12,10 @@ description: 'The Software Evolution (EVOL) Lab at UNLV is home to graduate rese
       <div class="eyebrow">Software Evolution (EVOL) Lab· Dept. of Computer Science, UNLV</div>
       <div class="hero-grid">
         <div>
-          <h1>We study how software changes, then measure it.</h1>
-          <p class="lede">EVOL Lab is home to graduate researchers advancing empirical software engineering at UNLV. We run large-scale studies of how codebases, forks, and teams evolve over time, and build tools that put that evidence to work. Mixed methods, open data, reproducible pipelines.</p>
+          <h1>Understanding software evolution. Building the future of dependable software.</h1>
+            <p class="lede">
+            EVOL Lab advances empirical software engineering and AI-assisted software engineering at the University of Nevada, Las Vegas. We study how software systems evolve, develop intelligent methods for adapting reusable changes across long-lived software ecosystems, and build open tools, datasets, and benchmarks that enable reproducible research.
+            </p>
           <div class="hero-ctas">
             <a class="btn btn-primary" href="#publications">Read our papers</a>
             <a class="btn btn-outline" href="join.html">Join the lab</a>
