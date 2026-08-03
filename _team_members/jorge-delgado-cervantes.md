@@ -17,13 +17,13 @@ social_links:
     url: '#'
   - type: linkedin
     label: LinkedIn
-    url: '#'
+    url: https://www.linkedin.com/in/jorgedlv/
   - type: scholar
     label: Google Scholar
     url: '#'
   - type: github
     label: GitHub
-    url: '#'
+    url: https://github.com/GonzalooDelgado
 research_interests:
   - Code recommendation quality and integration support.
   - Snippet search relevance and contextual ranking.

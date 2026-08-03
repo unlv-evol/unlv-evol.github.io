@@ -17,13 +17,13 @@ social_links:
     url: '#'
   - type: linkedin
     label: LinkedIn
-    url: '#'
+    url: https://www.linkedin.com/in/parham-pahlavan-2aa02135a/
   - type: scholar
     label: Google Scholar
     url: '#'
   - type: github
     label: GitHub
-    url: '#'
+    url: https://github.com/RISINGCHART719
 research_interests:
   - Research data pipelines for software engineering studies.
   - Replication package quality and automation.

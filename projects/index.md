@@ -4,7 +4,7 @@ title: 'Projects — EVOL Lab'
 description: 'Project catalog for the EVOL Lab at UNLV.'
 ---
 
-<main id="top" class="project-page-main">
+<main id="top">
   <section>
     <div class="wrap">
       <p class="project-breadcrumb">EVOL Lab / Projects</p>

@@ -17,13 +17,13 @@ social_links:
     url: '#'
   - type: linkedin
     label: LinkedIn
-    url: '#'
+    url: https://www.linkedin.com/in/sserunjogi-richard/
   - type: scholar
     label: Google Scholar
-    url: https://scholar.google.com/citations?user=Richard-Sserunjogi
+    url: https://scholar.google.com/citations?user=Richard-Sserunjogi&user=F9Eq4fwAAAAJ
   - type: github
     label: GitHub
-    url: https://github.com/richardsserunjogi
+    url: https://github.com/sserurich
 research_interests:
   - Developer workflows and collaboration dynamics.
   - Mixed-methods empirical software engineering.

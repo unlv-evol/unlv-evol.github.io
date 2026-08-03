@@ -11,7 +11,7 @@ description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable soft
     <div class="wrap">
       <div class="eyebrow">Software Evolution (EVOL) Lab· Dept. of Computer Science, UNLV</div>
       <div class="hero-grid">
-        <div>
+        <div class="hero-copy">
           <h1>Understanding software evolution. Building the future of dependable software.</h1>
             <p class="lede">
             EVOL Lab advances empirical software engineering and AI-assisted software engineering at the University of Nevada, Las Vegas. We study how software systems evolve, develop intelligent methods for adapting reusable changes across long-lived software ecosystems, and build open tools, datasets, and benchmarks that enable reproducible research.
@@ -20,16 +20,6 @@ description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable soft
             <a class="btn btn-primary" href="#publications">Read our papers</a>
             <a class="btn btn-outline" href="join.html">Join the lab</a>
           </div>
-        </div>
-        <div class="figure">
-          <div class="chart" aria-hidden="true">
-            <div class="bar-col"><div class="bar" style="height:38%;"></div><span class="lbl">RQ1</span></div>
-            <div class="bar-col"><div class="bar hi" style="height:82%;"></div><span class="lbl">RQ2</span></div>
-            <div class="bar-col"><div class="bar" style="height:54%;"></div><span class="lbl">RQ3</span></div>
-            <div class="bar-col"><div class="bar hi" style="height:71%;"></div><span class="lbl">RQ4</span></div>
-            <div class="bar-col"><div class="bar" style="height:29%;"></div><span class="lbl">RQ5</span></div>
-          </div>
-          <p class="figure-cap"><b>Fig. 1</b> — Effect size by research question across our last five studies (illustrative). Highlighted bars mark statistically significant, practically meaningful findings.</p>
         </div>
       </div>
     </div>
@@ -105,34 +95,6 @@ description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable soft
 
       <p class="people-subhead">Current team</p>
       {% include team-cards.html featured_only=true %}
-
-      <p class="people-subhead mt-44">Alumni</p>
-      <div class="people-grid">
-        <div class="person">
-          <div class="avatar" style="background:var(--link);">MT</div>
-          <div>
-            <p class="person-name">Marcus Tran</p>
-            <p class="person-role">PhD '25 → Postdoc, ETH Zürich</p>
-            <p class="person-note">Now working on program repair.</p>
-          </div>
-        </div>
-        <div class="person">
-          <div class="avatar" style="background:var(--diff);">LH</div>
-          <div>
-            <p class="person-name">Lena Hoffmann</p>
-            <p class="person-role">MS '24 → Software Engineer, Google</p>
-            <p class="person-note">Thesis on ecosystem-scale fork analysis.</p>
-          </div>
-        </div>
-        <div class="person">
-          <div class="avatar" style="background:var(--link);">OA</div>
-          <div>
-            <p class="person-name">Omar Al-Sayed</p>
-            <p class="person-role">MS '23 → PhD student, UC Irvine</p>
-            <p class="person-note">Continuing work on code review dynamics.</p>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 

@@ -17,13 +17,13 @@ social_links:
     url: '#'
   - type: linkedin
     label: LinkedIn
-    url: '#'
+    url: https://www.linkedin.com/in/adam-hamou/
   - type: scholar
     label: Google Scholar
     url: '#'
   - type: github
     label: GitHub
-    url: '#'
+    url: https://github.com/AdamoHamou
 research_interests:
   - Technical debt measurement and longitudinal tracking.
   - Monorepo maintenance and architecture-aware quality indicators.
