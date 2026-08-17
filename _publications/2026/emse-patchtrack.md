@@ -2,7 +2,7 @@
 title: "PatchTrack: A Comprehensive Analysis of ChatGPT's Influence on Pull Request Outcomes"
 date: 2026-06-01 00:00:00 +0000
 selected: true
-pub: "AIware 2026"
+pub: "EMSE 2026"
 pub_date: "2026"
 authors:
   - Daniel Ogenrwot

@@ -13,7 +13,7 @@ authors:
   - Coen De Roover
   - Foutse Khomh
 badges:
-  - preprint
+  - paper
 links:
-  Preprint: https://johnxu21.github.io/files/FSE2022.pdf
+  Paper: https://dl.acm.org/doi/10.1145/3540250.3549112
 ---

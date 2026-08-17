@@ -12,7 +12,7 @@ authors:
   - Serge Demeyer
   - Coen De Roover
 badges:
-  - preprint
+  - paper
 links:
-  Preprint: https://johnxu21.github.io/files/SANER2022.pdf
+  Paper: https://ieeexplore.ieee.org/document/9825761
 ---

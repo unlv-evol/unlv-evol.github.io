@@ -10,7 +10,7 @@ authors:
   - Sarah Nadi
   - Thorsten Berger
 badges:
-  - preprint
+  - paper
 links:
-  Preprint: https://johnxu21.github.io/files/EMSE2022.pdf
+  Paper: https://link.springer.com/article/10.1007/s10664-021-10078-2
 ---

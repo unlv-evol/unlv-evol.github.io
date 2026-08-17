@@ -9,7 +9,7 @@ authors:
   - Mehrdad Abdi
   - Serge Demeyer
 badges:
-  - preprint
+  - Book Chapter
 links:
   Paper: https://link.springer.com/book/10.1007/978-3-031-36060-2
 ---

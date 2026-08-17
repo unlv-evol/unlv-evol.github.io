@@ -8,8 +8,9 @@ authors:
   - Daniel Ogenrwot
   - John Businge
 badges:
-  - preprint
+  - paper
   - dataset & code
 links:
-  Preprint: https://arxiv.org/abs/2604.03551
+  Paper: https://dl.acm.org/doi/10.1145/3805760.3814923
+  #Preprint: https://arxiv.org/abs/2604.03551
 ---
