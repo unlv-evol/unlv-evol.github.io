@@ -11,7 +11,7 @@ home_meta:
   - Qt / C++
   - FSE 2026 demo
 card_media_class: project-card-media--maroon
-card_image: /assets/project-movis.svg
+card_image: /assets/project-movis.png
 card_image_alt: Illustration for the MOVis project
 card_kicker: Visualization system
 card_name: MOVis
