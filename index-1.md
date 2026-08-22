@@ -1,7 +1,7 @@
 ---
 layout: evol
 title: 'EVOL Lab — Software Evolution, UNLV'
-description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable software evolution through empirical software engineering and AI-assisted development. We study how software ecosystems evolve and create intelligent methods for understanding, adapting, and reusing software changes at scale.'
+description: 'EVOL Lab at UNLV develops evidence-driven methods and open tools that help developers reuse valuable software changes and collaborate dependably with AI coding agents.'
 ---
 
 <main id="top">
@@ -9,21 +9,22 @@ description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable soft
   <!-- ================= HERO ================= -->
   <section class="hero">
     <div class="wrap">
-      <div class="eyebrow">Software Evolution (EVOL) Lab· Dept. of Computer Science, UNLV</div>
+      <div class="eyebrow">Software Evolution (EVOL) Lab · Department of Computer Science, UNLV</div>
       <div class="hero-grid">
         <div class="hero-copy">
-          <h1>Understanding software evolution. Building the future of dependable software.</h1>
-            <p class="lede">
-            EVOL Lab develops evidence-driven methods and open source tools for dependable
+          <h1>Helping developers understand, adapt, and evaluate software change.</h1>
+          <p class="lede">
+            EVOL Lab develops evidence-driven methods and open tools for dependable
             software evolution. We investigate how valuable improvements can move
             across related software systems and how developers can work more
             reliably with large language models and coding agents. Across both
             directions, our goal is to preserve developer intent, account for the
             surrounding software context, and provide evidence that supports
             decisions about whether a change should be integrated.
-            </p>
+          </p>
           <div class="hero-ctas">
-            <a class="btn btn-primary" href="#publications">Read our papers</a>
+            <a class="btn btn-primary" href="#research">Explore our research</a>
+            <a class="btn btn-outline" href="projects/index.html">See our projects</a>
             <a class="btn btn-outline" href="join.html">Join the lab</a>
           </div>
         </div>
@@ -31,7 +32,7 @@ description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable soft
     </div>
   </section>
 
-  <!-- ================= ABOUT ================= -->
+  <!-- ================= RESEARCH ================= -->
   <section id="research">
     <div class="wrap">
       <div class="section-head">
@@ -112,6 +113,61 @@ description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable soft
     </div>
   </section>
 
+  <!-- ================= APPROACH ================= -->
+  <section id="approach">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-tag">approach</div>
+          <h2>How we build dependable tools</h2>
+        </div>
+        <div class="section-note"></div>
+      </div>
+
+      <div class="join-panels">
+        <article class="join-panel">
+          <span class="rq-id">01</span>
+          <h3>Study real development</h3>
+          <p>
+            We mine repositories, patches, pull requests, and developer–LLM
+            interactions to understand how software change succeeds, fails, and
+            evolves in practice.
+          </p>
+        </article>
+
+        <article class="join-panel">
+          <span class="rq-id">02</span>
+          <h3>Recover structure and intent</h3>
+          <p>
+            We combine change history, code structure, refactorings, dependencies,
+            and repository context to determine what a change means and where it
+            belongs.
+          </p>
+        </article>
+
+        <article class="join-panel">
+          <span class="rq-id">03</span>
+          <h3>Use AI within constraints</h3>
+          <p>
+            We use large language models where they can help interpret or adapt
+            change, while grounding them in deterministic software analyses and
+            explicit repository evidence.
+          </p>
+        </article>
+
+        <article class="join-panel">
+          <span class="rq-id">04</span>
+          <h3>Keep developers in control</h3>
+          <p>
+            We expose evidence, limitations, and unresolved risks so that
+            developers can decide whether to integrate, revise, or reject a
+            proposed change.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <!-- ================= NEWS ================= -->
   <section id="news">
     <div class="wrap">
@@ -158,7 +214,7 @@ description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable soft
       </div>
       {% include publication-list.html limit=6 %}
       <div class="join-compact projects-cta" style="margin-top:18px;">
-        <p>See the full archive for the remaining publications.</p>
+        <p>Explore the complete publication archive.</p>
         <a class="btn btn-primary" href="publications.html">View all publications</a>
       </div>
     </div>
@@ -176,7 +232,7 @@ description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable soft
       </div>
       {% include project-cards.html featured_only=true %}
       <div class="projects-cta">
-        <p>See all active and past EVOL Lab projects, outputs in one place.</p>
+        <p>Explore active and completed EVOL Lab projects, tools, datasets, and research outputs.</p>
         <a class="btn btn-primary" href="projects/index.html">Browse all projects</a>
       </div>
     </div>

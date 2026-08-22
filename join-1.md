@@ -1,7 +1,7 @@
 ---
 layout: evol
 title: 'Join EVOL Lab — UNLV'
-description: 'Opportunities for prospective Master''s and PhD students to conduct research in software evolution, empirical software engineering, and AI-assisted software engineering at the EVOL Lab, UNLV.'
+description: 'Opportunities for prospective Master''s and PhD students to build evidence-driven tools for dependable software evolution and developer–LLM collaboration at EVOL Lab, UNLV.'
 ---
 
 <main id="top" class="join-page">
