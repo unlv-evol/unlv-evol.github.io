@@ -37,7 +37,7 @@ project_links:
   - label: GitHub repository
     href: https://github.com/unlv-evol/MOVis
     external: true
-figure_image: /assets/project-movis.svg
+figure_image: /assets/project-movis.png
 figure_alt: Illustration showing interactive missed-patch visualization for MOVis
 figure_caption: Illustrative view of MOVis linking software variants, patches, and file-level drill-downs inside an interactive visual workflow.
 overview_paragraphs:
