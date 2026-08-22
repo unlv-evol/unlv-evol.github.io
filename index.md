@@ -1,7 +1,7 @@
 ---
 layout: evol
 title: 'EVOL Lab — Software Evolution, UNLV'
-description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable software evolution through empirical software engineering and AI-assisted development. We study how software ecosystems evolve and create intelligent methods for understanding, adapting, and reusing software changes at scale.'
+description: 'EVOL Lab at UNLV develops evidence-driven methods and open tools that help developers reuse valuable software changes and collaborate dependably with AI coding agents.'
 ---
 
 <main id="top">
@@ -12,7 +12,7 @@ description: 'The Software Evolution (EVOL) Lab at UNLV pioneers dependable soft
       <div class="eyebrow">Software Evolution (EVOL) Lab· Dept. of Computer Science, UNLV</div>
       <div class="hero-grid">
         <div class="hero-copy">
-          <h1>Understanding software evolution. Building the future of dependable software.</h1>
+          <h1>Helping developers understand, adapt, and evaluate software change.</h1>
             <p class="lede">
             EVOL Lab develops evidence-driven methods and open source tools for dependable
             software evolution. We investigate how valuable improvements can move
