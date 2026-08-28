@@ -125,6 +125,106 @@ description: 'Opportunities for prospective Master''s and PhD students to conduc
             generic emails.
           </p>
         </article>
+
+        <article class="join-checklist">
+          <h3>Funding Your Graduate Studies</h3>
+
+          <p>
+            Funding for graduate study can come from several sources, and an
+            EVOL Lab research position is not the only pathway. Research
+            assistantships in EVOL depend on available grant funding and current
+            project needs, so funding through the lab is not guaranteed.
+          </p>
+
+          <p>
+            Students are encouraged to explore graduate assistantships across
+            UNLV, not only positions in the Department of Computer Science.
+            Assistantships may also be available through other academic and
+            non-academic units, including the Office of Information Technology
+            (OIT) and other technical or administrative units. These positions
+            can provide a stipend and graduate-assistant benefits in exchange
+            for up to 20 hours of work per week, subject to the terms and
+            eligibility requirements of the appointment.
+          </p>
+
+          <p>
+            A student may therefore be funded through another UNLV unit while
+            pursuing a Computer Science degree and conducting academic research
+            with EVOL Lab, when the assistantship and program requirements allow
+            it. Students should also explore Graduate College fellowships,
+            scholarships, and other university funding opportunities.
+          </p>
+
+          <div class="actions">
+            <a
+              class="btn btn-primary"
+              href="https://www.unlv.edu/graduatecollege/financing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Financing Graduate Study
+            </a>
+
+            <a
+              class="btn"
+              href="https://www.unlv.edu/graduatecollege/career"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Graduate Assistantships
+            </a>
+
+            <a
+              class="btn"
+              href="https://www.unlv.edu/graduatecollege/funding/current-student-funding"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Scholarships &amp; Fellowships
+            </a>
+          </div>
+
+          <p class="supporting-note">
+            Assistantship availability changes from year to year. Prospective
+            students should review current UNLV opportunities and should not
+            assume that admission to UNLV or participation in EVOL Lab
+            automatically includes financial support.
+          </p>
+        </article>
+
+        <article class="join-checklist">
+          <h3>Frequently Asked Questions</h3>
+
+          <p>
+            <strong>Do I need a publication before applying?</strong><br>
+            For PhD applicants, prior peer-reviewed software engineering
+            research is highly desirable, but we also consider strong evidence
+            of research potential, technical ability, independence, and critical
+            thinking.
+          </p>
+
+          <p>
+            <strong>Is funding guaranteed if I join EVOL Lab?</strong><br>
+            No. Funding depends on available research grants, assistantships,
+            fellowships, scholarships, and other university opportunities.
+          </p>
+
+          <p>
+            <strong>Can I hold an assistantship outside Computer Science and still work with EVOL?</strong><br>
+            Potentially, yes. Graduate students may hold eligible assistantships
+            in other UNLV units while pursuing their degree and conducting
+            academic research with EVOL Lab, provided that the appointment,
+            degree-program, advisor, and Graduate College requirements permit it.
+          </p>
+
+          <p>
+            <strong>Where should I look for assistantships?</strong><br>
+            Search broadly across UNLV. Graduate assistantships may be offered by
+            academic departments as well as non-academic units. Current
+            opportunities are advertised through UNLV's graduate career and
+            employment resources, including Handshake.
+          </p>
+        </article>
       </section>
 
       <aside class="info-card">
@@ -152,15 +252,17 @@ description: 'Opportunities for prospective Master''s and PhD students to conduc
             </a>
           </dd>
 
-          <dt>Master's Applicants</dt>
+          <dt>Graduate Applications</dt>
           <dd>
-            Contact us after applying and include your application number.
+            Master's applicants should contact us after applying and include
+            their UNLV application number when available.
           </dd>
 
-          <dt>PhD Applicants</dt>
+          <dt>Funding</dt>
           <dd>
-            A Master's degree is typically expected. Prior research experience
-            and peer-reviewed publications are highly desirable.
+            Explore assistantships across UNLV as well as Graduate College
+            scholarships and fellowships. Funding through EVOL Lab is not
+            guaranteed.
           </dd>
         </dl>
 
