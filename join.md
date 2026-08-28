@@ -41,8 +41,10 @@ description: 'Opportunities for prospective Master''s and PhD students to conduc
                 Strong programming and software engineering skills.
               </li>
               <li>
-                Interest in empirical software engineering, reusable change
-                integration, or dependable developer–LLM collaboration.
+                Interest in software evolution, empirical software engineering, or
+    AI-assisted software engineering, with enthusiasm for developing and
+    evaluating tools, methods, and techniques that address real software
+    engineering challenges.
               </li>
               <li>
                 A peer-reviewed software engineering publication is highly
