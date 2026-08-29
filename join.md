@@ -17,6 +17,17 @@ description: 'Opportunities for prospective Master''s and PhD students to conduc
         to research in dependable software evolution and AI-assisted
         software engineering.
       </p>
+
+      <p class="phd-callout-award">
+        Supported by
+        <a
+          href="https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2542438"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          NSF CAREER Award #2542438 ↗
+        </a>
+      </p>
     </div>
 
     <div class="phd-callout-action">

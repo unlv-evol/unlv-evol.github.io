@@ -82,6 +82,22 @@
   }
 }
 
+  .phd-callout .phd-callout-award{
+  margin-top:10px;
+  font-family:var(--mono);
+  font-size:var(--text-small);
+  color:var(--ink-soft);
+}
+
+.phd-callout-award a{
+  color:var(--link);
+  font-weight:600;
+  text-decoration:none;
+}
+
+.phd-callout-award a:hover{
+  text-decoration:underline;
+}
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   @media (prefers-reduced-motion: reduce){
