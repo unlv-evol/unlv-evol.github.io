@@ -4,22 +4,28 @@ title: 'Join EVOL Lab — UNLV'
 description: 'Opportunities for prospective Master''s and PhD students to conduct research in software evolution, empirical software engineering, and AI-assisted software engineering at the EVOL Lab, UNLV.'
 ---
 
-<article class="join-checklist" style="margin-bottom:24px;">
-  <h3>🎓 Funded PhD Position — Fall 2027</h3>
+<div class="wrap">
+  <article class="phd-callout">
+    <div class="phd-callout-copy">
+      <p class="eyebrow">Funded Opportunity · Fall 2027</p>
 
-  <p>
-    EVOL Lab is recruiting a PhD student in Software Engineering beginning
-    Fall 2027. The position includes four years of funding and will contribute
-    to research in dependable software evolution and AI-assisted software
-    engineering.
-  </p>
+      <h3>PhD Position in Software Engineering</h3>
 
-  <div class="actions">
-    <a class="btn btn-primary" href="{{ '/phd-2027.html' | relative_url }}">
-      View PhD Opportunity →
-    </a>
-  </div>
-</article>
+      <p>
+        EVOL Lab is recruiting a PhD student beginning Fall 2027.
+        The position includes four years of funding and will contribute
+        to research in dependable software evolution and AI-assisted
+        software engineering.
+      </p>
+    </div>
+
+    <div class="phd-callout-action">
+      <a class="btn btn-primary" href="{{ '/phd-2027.html' | relative_url }}">
+        View PhD Opportunity →
+      </a>
+    </div>
+  </article>
+</div>
 
 <main id="top" class="join-page">
   <div class="wrap">

@@ -27,6 +27,61 @@
     --h3-size: clamp(22px, 2.1vw, 28px);
   }
 
+  .phd-callout{
+  background:var(--paper-raised);
+  border:1px solid var(--rule);
+  border-top:3px solid var(--link);
+  border-radius:10px;
+  padding:22px 24px;
+  margin:28px 0 8px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:28px;
+  box-shadow:0 10px 24px rgba(28,25,23,0.04);
+}
+
+.phd-callout-copy{
+  min-width:0;
+}
+
+.phd-callout .eyebrow{
+  margin:0 0 8px;
+}
+
+.phd-callout h3{
+  margin:0 0 8px;
+  font-size:24px;
+}
+
+.phd-callout p{
+  margin:0;
+  color:var(--ink-soft);
+  font-size:16px;
+  line-height:1.65;
+}
+
+.phd-callout-action{
+  flex-shrink:0;
+}
+
+@media (max-width:720px){
+  .phd-callout{
+    flex-direction:column;
+    align-items:flex-start;
+    padding:18px;
+  }
+
+  .phd-callout-action{
+    width:100%;
+  }
+
+  .phd-callout-action .btn{
+    width:100%;
+    text-align:center;
+  }
+}
+
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   @media (prefers-reduced-motion: reduce){
