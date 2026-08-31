@@ -9,8 +9,19 @@ authors:
   - John Businge
 badges:
   - paper
-  - dataset & code
+  - dataset
+  - code
 links:
   Paper: https://dl.acm.org/doi/10.1145/3805760.3814923
-  #Preprint: https://arxiv.org/abs/2604.03551
+  Preprint: https://arxiv.org/abs/2604.03551
+  Dataset: https://zenodo.org/records/20118379
+  Code: https://github.com/unlv-evol/AgenticFlict
+bibtex: |
+  @inproceedings{ogenrwot2026agenticflict,
+  title={AgenticFlict: A Large-Scale Dataset of Merge Conflicts in AI Coding Agent Pull Requests on GitHub},
+  author={Ogenrwot, Daniel and Businge, John},
+  booktitle={Proceedings of the 3rd ACM International Conference on AI-Powered Software},
+  pages={323--331},
+  year={2026}
+  }
 ---

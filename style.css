@@ -472,9 +472,34 @@
     border:1px solid transparent;
   }
   .badge-venue{ background:var(--rule); color:var(--ink); }
-  .badge-avail{ background:var(--add-bg); color:var(--add); border-color:var(--add); }
+  .badge-avail{ background:var(--add-bg); color:var(--add); border-color:var(--add); text-transform:uppercase; }
   .badge-pending{ background:var(--diff-bg); color:var(--diff); border-color:var(--diff); }
+  a.badge{ text-decoration:none; cursor:pointer; }
+  a.badge:hover{ text-decoration:underline; }
   .pub-year{ font-family:var(--mono); font-size:var(--text-small); color:var(--ink-soft); white-space:nowrap; }
+
+  .badge-cite summary{
+    list-style:none;
+    cursor:pointer;
+  }
+  .badge-cite summary::-webkit-details-marker{ display:none; }
+  .badge-cite[open]{ flex-basis:100%; }
+  .badge-cite-panel{ width:100%; margin-top:8px; }
+  .badge-cite-panel pre{
+    margin:0 0 8px;
+    padding:12px;
+    background:var(--rule);
+    border-radius:6px;
+    font-size:13px;
+    overflow-x:auto;
+    white-space:pre-wrap;
+    word-break:break-word;
+  }
+  .badge-cite-panel .bibtex-download{
+    font-family:var(--mono);
+    font-size:var(--text-small);
+    color:var(--link);
+  }
 
   /* ---------- Projects ---------- */
   .project-grid{
