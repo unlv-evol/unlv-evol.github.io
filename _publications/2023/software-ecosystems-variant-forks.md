@@ -12,4 +12,13 @@ badges:
   - Book Chapter
 links:
   Paper: https://link.springer.com/book/10.1007/978-3-031-36060-2
+bibtex: |
+  @incollection{businge2023analyzing,
+  title={Analyzing Variant Forks of Software Repositories from Social Coding Platforms},
+  author={Businge, John and Abdi, Mehrdad and Demeyer, Serge},
+  booktitle={Software Ecosystems: Tooling and Analytics},
+  pages={131--152},
+  year={2023},
+  publisher={Springer}
+  }
 ---

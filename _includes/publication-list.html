@@ -20,8 +20,34 @@
           <span class="badge badge-venue">{{ item.pub }}</span>
           {% if item.badges %}
             {% for badge in item.badges %}
-              <span class="badge badge-avail">{{ badge }}</span>
+              {% assign badge_lower = badge | downcase %}
+              {% if badge_lower contains 'paper' and primary_link %}
+                <a class="badge badge-avail" href="{{ primary_link }}" target="_blank" rel="noopener">{{ badge }}</a>
+              {% elsif badge_lower contains 'dataset' %}
+                {% if item.links.Dataset %}
+                  <a class="badge badge-avail" href="{{ item.links.Dataset }}" target="_blank" rel="noopener">{{ badge }}</a>
+                {% else %}
+                  <span class="badge badge-avail">{{ badge }}</span>
+                {% endif %}
+              {% elsif badge_lower contains 'code' %}
+                {% if item.links.Code %}
+                  <a class="badge badge-avail" href="{{ item.links.Code }}" target="_blank" rel="noopener">{{ badge }}</a>
+                {% else %}
+                  <span class="badge badge-avail">{{ badge }}</span>
+                {% endif %}
+              {% else %}
+                <span class="badge badge-avail">{{ badge }}</span>
+              {% endif %}
             {% endfor %}
+          {% endif %}
+          {% if item.bibtex %}
+            <details class="badge-cite">
+              <summary class="badge badge-avail">Cite(Bib)</summary>
+              <div class="badge-cite-panel">
+                <pre><code>{{ item.bibtex | strip }}</code></pre>
+                <a class="bibtex-download" href="data:text/plain;charset=utf-8,{{ item.bibtex | url_encode | replace: '+', '%20' }}" download="{{ item.title | slugify }}.bib">Download .bib</a>
+              </div>
+            </details>
           {% endif %}
         </div>
       </div>

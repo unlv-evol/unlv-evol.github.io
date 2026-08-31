@@ -13,4 +13,15 @@ badges:
   - paper
 links:
   Paper: https://link.springer.com/article/10.1007/s10664-021-10078-2
+bibtex: |
+  @article{businge2022reuse,
+  title={Reuse and maintenance practices among divergent forks in three software ecosystems},
+  author={Businge, John and Openja, Moses and Nadi, Sarah and Berger, Thorsten},
+  journal={Empirical Software Engineering},
+  volume={27},
+  number={2},
+  pages={54},
+  year={2022},
+  publisher={Springer}
+  }
 ---
