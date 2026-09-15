@@ -4,7 +4,7 @@ title: 'Join EVOL Lab — UNLV'
 description: 'Opportunities for prospective Master''s and PhD students to conduct research in software evolution, empirical software engineering, and AI-assisted software engineering at the EVOL Lab, UNLV.'
 ---
 
-<div class="wrap">
+<!--div class="wrap">
   <article class="phd-callout">
     <div class="phd-callout-copy">
       <p class="eyebrow">Funded Opportunity · Fall 2027</p>
@@ -36,7 +36,7 @@ description: 'Opportunities for prospective Master''s and PhD students to conduc
       </a>
     </div>
   </article>
-</div>
+</div-->
 
 <main id="top" class="join-page">
   <div class="wrap">
